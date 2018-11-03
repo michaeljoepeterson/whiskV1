@@ -1,0 +1,36 @@
+.navbarLogo{
+	display: inline-block;
+	width:20%;
+}
+.navbarImage{
+	width: 100%;
+}
+
+.nav-item{
+	border-bottom: 1px solid;
+	border-bottom-color: rgba(0,0,0,0.5);
+}
+.nav-link{
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+.nav-link:hover{
+	background-color: rgba(128,128,128,0.1) !important;
+}
+
+@media (min-width: 992px){
+	.nav-item{
+		border-bottom: none;
+	}
+
+	.nav-link:hover{
+		color: black;
+		background-color:#f8f9fa !important;
+	}
+}
+
+@media (min-width: 640px){
+	.navbarLogo{
+		width: 10%;
+	}
+}
