@@ -1,0 +1,17 @@
+.carousel-img{
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+}
+.carousel-background{
+	background-color: black;
+}
+/*Possible use for having background on carousel*/
+/*
+.carousel-caption{
+	max-width: 100%;
+    width:100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    left: 0;
+}
+*/
