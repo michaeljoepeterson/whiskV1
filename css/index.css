@@ -9,3 +9,28 @@
     left: 0;
 }
 */
+
+.center{
+	text-align: center;
+	margin: auto;
+	vertical-align: middle;
+}
+
+.row-underline{
+	border-bottom: 1px solid black;
+}
+.row-underline:last-of-type{
+	border-bottom: none;
+}
+.row{
+	margin-bottom: 10px;
+}
+.container{
+	padding: 10px;
+}
+.large-container{
+	margin: 20px;
+}
+.image-container{
+	margin-bottom: 10px;
+}
