@@ -12,14 +12,14 @@ function swapContent(){
 function swapContentSmall(){
 	$(".js-swap-content-1").html('<img src="http://overthetopcakes.ca/wp-content/uploads/2015/09/electric-mixer.png"/>"');
 	$(".js-swap-content-2").html('<h2>Take a Class</h2>');
-	$(".js-swap-content-3").html('<img style="width: 128px;heigth:128px;" src="http://overthetopcakes.ca/wp-content/uploads/2017/10/whisk-full-black_gold_transparent.png"/>');
+	$(".js-swap-content-3").html('<img class="menuImage" src="http://overthetopcakes.ca/wp-content/uploads/2017/10/whisk-full-black_gold_transparent.png"/>');
 	$(".js-swap-content-4").html('<h2>About Us</h2>');
 }
 function swapContentLarge(){
 	$(".js-swap-content-1").html('<h2>Take a Class</h2>');
 	$(".js-swap-content-2").html('<img src="http://overthetopcakes.ca/wp-content/uploads/2015/09/electric-mixer.png"/>">');
 	$(".js-swap-content-3").html('<h2>About Us</h2>');
-	$(".js-swap-content-4").html('<img style="width: 128px;heigth:128px;" src="http://overthetopcakes.ca/wp-content/uploads/2017/10/whisk-full-black_gold_transparent.png"/>');
+	$(".js-swap-content-4").html('<img class="menuImage" src="http://overthetopcakes.ca/wp-content/uploads/2017/10/whisk-full-black_gold_transparent.png"/>');
 }
 function swapContent(){
 	const swapContent1 = $(".js-swap-content-1").html();

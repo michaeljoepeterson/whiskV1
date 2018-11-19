@@ -22,6 +22,10 @@
 .row-underline:last-of-type{
 	border-bottom: none;
 }
+.menuImage{
+	height: 128px;
+	min-width: 128px;
+}
 .row{
 	margin-bottom: 10px;
 }
@@ -33,4 +37,9 @@
 }
 .image-container{
 	margin-bottom: 10px;
+}
+
+#map{
+	width:100%;
+	height: 600px;
 }

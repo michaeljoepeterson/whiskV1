@@ -9,14 +9,20 @@
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
     <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLznjv6ftxJov7RNpGtlJ1LGoGK9_xMZ8&callback=initMap">
+  </script>
+    <script type="text/javascript" src="js/handleMaps.js"></script>
     <script type="text/javascript" src="js/handleIndexResize.js"></script>
     <link rel="stylesheet"  href="vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/customNav.css">
     <link rel="stylesheet" type="text/css" href="css/customCarousel.css">
     <link rel="stylesheet" type="text/css" href="css/modern-business.css">
+    
 </head>
 <body>
+  <!--Nav Section-->
 	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
         <a class="navbarLogo" href="index.html"><img class="navbarImage" src="http://overthetopcakes.ca/wp-content/uploads/2017/10/whisk-full-black_gold_transparent.png"/></a>
@@ -44,7 +50,8 @@
         </div>
       </div>
     </nav>
-
+    <!--End Nav Section-->
+    <!--carousel Section-->
     <header>
 	    <div class="carousel-background">
 	      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -80,6 +87,8 @@
 	      </div>
 	  </div>
     </header>
+    <!--end carousel Section-->
+    <!--Menu Section-->
     <div class="large-container">
       <div class="container center">
         <div class="row row-underline">
@@ -111,10 +120,18 @@
             <h2>About Us</h2>
           </div>
           <div class="col-md-6 col-sm-12 image-container js-swap-content-4">
-            <img style="width: 128px;heigth:128px;" src="http://overthetopcakes.ca/wp-content/uploads/2017/10/whisk-full-black_gold_transparent.png"/>
+            <img class="menuImage" src="http://overthetopcakes.ca/wp-content/uploads/2017/10/whisk-full-black_gold_transparent.png"/>
           </div>
       </div>
     </div>
   </div>
+  <!--end menu Section-->
+  <!--Contact Section-->
+  <div class="">
+    <div id="map"></div>
+  </div>
+
+  <!--end contact section-->
+  
 </body>
 </html>
